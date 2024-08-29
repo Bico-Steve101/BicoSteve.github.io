@@ -1,0 +1,474 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="static/media/image/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="static/media/image/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="static/media/image/favicon-16x16.png">
+    <link rel="manifest" href="static/media/image/site.webmanifest">
+    <link rel="mask-icon" href="static/media/image/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="static/css/swiper-bundle.min.css">
+
+    <link rel="stylesheet" href="static/css/index.css">
+    <link rel="stylesheet" href="static/css/notice.css">
+    <link rel="stylesheet" href="static/css/resume.css">
+    <link rel="stylesheet" href="static/css/projects.css">
+    <title>Bico Steve</title>
+</head>
+
+<body>
+
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <img src="static/media/image/android-chrome-192x192.png" alt="" class="nav__logo-img">
+                Bico Steve
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">Home</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#projects" class="nav__link">Projects</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#contact!" class="nav__link">Contact</a>
+                    </li>
+
+                    <a href="#" class=" button--ghost">
+                        <button class="transparent">
+                            <label class="ui-switch">
+                                <input class="btn-toggle" type="checkbox">
+                                <div class="slider">
+                                    <div class="circle"></div>
+                                </div>
+                            </label>
+                        </button>
+                    </a>
+                </ul>
+
+                <div class="nav__close" id="nav-close">
+                    <i class='bx bx-x'></i>
+                </div>
+
+                <img src="static/media/image/mouse 1 wire white.png" alt="" class="nav__img">
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-grid-alt'></i>
+            </div>
+
+        </nav>
+    </header>
+    <!-- <div  id="information">     
+        {% for message in messages %}
+            <p>{{message}}</p>
+        {% endfor %}
+    </div>
+    <div  id="toast"><div id="img">info</div>
+    <div id="desc">
+    
+        {% for message in messages %}
+            <p>{{message}}</p>
+        {% endfor %}
+    
+    </div>
+    </div> -->
+    <main class="main">
+        <section class="home container mt-2" id="home">
+            <div class="swiper ">
+                <div class="swiper-wrapper">
+                    <section class="swiper-slide">
+                        <div class="home__content grid">
+                            <div class="home__data">
+                                <h3 class="home__subtitle">FULLSTACK DEVELOPER </h3>
+                                <h1 class="home__title">
+                                    Crafting Digital <br>
+                                    <span>Experiences</span> <br>
+                                    End-to-End
+                                </h1>
+                                <p class="home__description">
+                                    Hello, I'm <span>Bico Steve</span>, a passionate fullstack developer
+                                    specializing in creating seamless, innovative solutions
+                                    across backend, frontend, and mobile platforms.
+                                </p>
+
+                                <div class="resume-button-container">
+                                    <a href="/bico resume.pdf" download class="resume-button download-btn">
+                                      <i class='bx bx-download icon'></i>
+                                    </a>
+                                    <a href="#" class="resume-button button main-btn">
+                                      Resume
+                                    </a>
+                                    <a href="/bico resume.pdf" target="_blank" class="resume-button view-btn">
+                                      <i class='bx bx-show icon'></i>
+                                    </a>
+                                  </div>
+                            </div>
+                            <div class="home__group">
+                                <img src="static/media/image/floating mouse & keyboard.png" alt="" class="home__img">
+                                <div class="indicator">
+                                    <div class="home__indicator"></div>
+                                    <div class="home__indicator2"></div>
+                                </div>
+
+                                <div class="home__details-img">
+                                    <h4 class="home__details-title">Fullstack Expertise</h4>
+                                    <span class="home__details-subtitle">Backend • Frontend • Mobile</span>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </section>
+        <section class="section about" id="about">
+            <div class="about__container container grid">
+                <div class="about__data">
+                    <h2 class="section__title about__title">About <br> <span>Bico Steve</span></h2>
+                    <p class="about__description">
+                        As a fullstack developer based in Kenya, I bring a unique perspective to the world of software development. With a strong foundation in computer science from Africa Nazarene University, I've honed my skills in creating comprehensive digital solutions.
+                    </p>
+                    <p class="about__description">
+                        My journey in tech is driven by a passion for innovation and problem-solving. I specialize in:
+                    </p>
+                    <ul class="about__skills">
+                        <li>Backend development: Building robust server-side applications</li>
+                        <li>Frontend development: Crafting intuitive and responsive user interfaces</li>
+                        <li>Mobile app development: Creating seamless experiences across devices</li>
+                    </ul>
+                    <p class="about__description">
+                        I'm constantly exploring new technologies and methodologies to enhance my skills and deliver cutting-edge solutions. My goal is to contribute to impactful projects that push the boundaries of what's possible in software development.
+                    </p>
+                </div>
+                <img src="static/media/image/mouse 1.png" alt="Developer Illustration" class="about__img">
+            </div>
+        </section>
+        <section id="projects" class="section category">
+            <h2 class="section__title">My Projects</h2>
+        
+            <div class="projects__container" id="initialProjects">
+                <div class="project__card">
+                    <img src="static/media/projects/atravel.png" alt="ATravel Project">
+                    <div class="project__info">
+                        <h3>ATravel</h3>
+                        <p>Web App for foreign tourists traveling to Africa. All-in-one booking for transport and accommodation.</p>
+                        <div class="project__languages">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project__card">
+                    <img src="static/media/projects/kipfit.png" alt="Kip-Fit Project">
+                    <div class="project__info">
+                        <h3>Kip-Fit</h3>
+                        <p>Fitness website with merchandise shop, custom user profiles, and live streaming capabilities.</p>
+                        <div class="project__languages">
+                            <span>Django</span>
+                            <span>PostgreSQL</span>
+                            <span>WebRTC</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project__card">
+                    <img src="static/media/projects/geeks.png" alt="Geeks Project">
+                    <div class="project__info">
+                        <h3>Geeks</h3>
+                        <p>Portfolio platform for developers to showcase projects and connect with others.</p>
+                        <div class="project__languages">
+                            <span>Vue.js</span>
+                            <span>Express</span>
+                            <span>MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="projects__container hidden" id="additionalProjects">
+                <div class="project__card">
+                    <img src="static/media/projects/estatenesux.png" alt="EstateNexus Project">
+                    <div class="project__info">
+                        <h3>EstateNexus</h3>
+                        <p>Property management app with custom profiles, payment tracking, and communication features.</p>
+                        <div class="project__languages">
+                            <span>React Native</span>
+                            <span>Firebase</span>
+                            <span>Stripe API</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="view-more-container">
+                <button class="view-more-btn" id="viewMoreBtn">
+                    <svg class="view-more-circle" viewBox="0 0 100 100">
+                        <circle cx="50" cy="50" r="45" fill="none" stroke-width="8" stroke-dasharray="47 47" />
+                        <path d="M50 30 L50 70 M30 50 L50 70 L70 50" stroke-width="4" stroke-linecap="round" />
+                    </svg>
+                </button>
+            </div>
+        </section>
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img01">
+        </div>
+
+        <section class="section trick" id="trick">
+            <h2 class="section__title">Language Skill Level </h2>
+
+            <div class="trick__container container grid">
+                <div class="trick__content">
+                    <div role="progressbar" aria-valuenow="67" aria-valuemin="0" aria-valuemax="100"
+                        style="--value: 77"></div>
+                    <h3 class="trick__title">ANGULAR</h3>
+                </div>
+
+                <div class="trick__content">
+                    <div role="progressbar" aria-valuenow="27" aria-valuemin="0" aria-valuemax="100"
+                        style="--value: 27"></div>
+                    <h3 class="trick__title">REACT NATIVE</h3>
+                </div>
+
+                <div class="trick__content">
+                    <div role="progressbar" aria-valuenow="57" aria-valuemin="0" aria-valuemax="100"
+                        style="--value: 57"></div>
+                    <h3 class="trick__title">NODE Js</h3>
+                </div>
+
+
+
+                <div class="trick__content">
+                    <div role="progressbar" aria-valuenow="67" aria-valuemin="0" aria-valuemax="100"
+                        style="--value: 67"></div>
+                    <h3 class="trick__title">PYTHON</h3>
+                </div>
+
+                <div class="trick__content">
+                    <div role="progressbar" aria-valuenow="67" aria-valuemin="0" aria-valuemax="100"
+                        style="--value: 79"></div>
+                    <h3 class="trick__title">DJANGO</h3>
+                </div>
+
+                <div class="trick__content">
+                    <div role="progressbar" aria-valuenow="67" aria-valuemin="0" aria-valuemax="100"
+                        style="--value: 80"></div>
+                    <h3 class="trick__title">SPRING BOOT</h3>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact!" id="contact" class="section discount">
+            <div class="discount__container container grid">
+                <div class="discount__data">
+                    <h2 class="discount__title">
+                        Have a project you need help with or want me to take on? No problem!
+                        <br><br>
+                        Just reach out, and I'll get back to you as soon as I can. 
+                        <br><br>
+                        You can find my contact details below.
+                    </h2>                    
+                </div>
+
+                <img src="static/media/image/contact 2.png" alt="" class="discount__img">
+            </div>
+        </section>
+
+        <section id="contact1" class="section newsletter">
+            <div class="newsletter__container container">
+                <h2 class="section__title">Contact Me</h2>
+                <p class="newsletter__description">
+                    Whether you're interested in collaborating on a project, seeking advice, 
+                    offering paid opportunities, or just want to connect, feel free to reach out. 
+                    I'm always open to professional inquiries and discussions.
+                </p>
+                
+                <form name="contactForm" class="newsletter__form" action="https://formspree.io/f/meqydgve"
+                    method="POST">
+                    <input name="name" type="name" maxlength="100" id="id_name" required type="text"
+                        placeholder="Enter your name" class="newsletter__input">
+                    <input name="email" type="email" maxlength="100" id="id_email" required type="text"
+                        placeholder="Enter your email" class="newsletter__input">
+                    <input name="subject" type="subject" maxlength="100" id="id_subject" required type="text"
+                        placeholder="Enter the subject" class="newsletter__input">
+                    <textarea name="message" maxlength="2000" col="40" rows="10" id="id_message" required type="text"
+                        name="" id="" cols="30" rows="10" placeholder="message here" class="newsletter__textarea">
+                        </textarea>
+                    <button type="submit" class="button fill" cursor="link">
+                        Submit
+                    </button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+
+
+
+    <footer class="footer section">
+        <div class="footer__container container grid">
+            <div class="footer__content">
+                <a href="#" class="footer__logo">
+                    <img src="static/media/image/android-chrome-192x192.png" alt="" class="footer__logo-img">
+                    Bico Steve.
+                </a>
+
+                <p class="footer__description">A Fullstack web developer, student,
+                    <br> rugby player & I also love books on history.
+                </p>
+
+                <div class="footer__social">
+                    <a href="https://www.linkedin.com/in/bico-101-steve/" target="_blank" class="footer__social-link">
+                        <i class='fab fa-linkedin'></i>
+                    </a>
+                    <a href="https://www.instagram.com/steve_bico001/" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-instagram-alt'></i>
+                    </a>
+                    <a href="https://twitter.com/Stevei02807085" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-twitter'></i>
+                    </a>
+                    <a href="https://github.com/Bico-Steve101" target="_blank" class="footer__social-link">
+                        <i class='fab fa-github'></i>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+        <span class="footer__copy"><a href="edit">&#169;</a> Steve Rebrand | All rights reserved | 2023 | steverebrand@gmail.com | +254757838398 <br></span>
+
+        <img src="static/media/image/best_mechanical-keyboard-isolated-3d-rendering_419924-418-removebg-preview.png"
+            alt="" class="footer__img-one">
+        <img src="static/media/image/wire.png" alt="" class="footer__img-three">
+        <img src="static/media/image/phone 1.png" alt="" class="footer__img-two">
+    </footer>
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class='bx bx-up-arrow-alt scrollup__icon'></i>
+    </a>
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function (event) {
+            event.preventDefault();
+
+            // Send the form data to EmailJS
+            emailjs.sendForm('service_97ifnb6', 'template_7f5b0zk', this)
+                .then(function (response) {
+                    alert('Your message has been sent successfully!');
+                }, function (error) {
+                    alert('Oops! Something went wrong. Please try again later.');
+                    console.error('Error sending email:', error);
+                });
+        });
+
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const newSwiper = new Swiper(".new-swiper", {
+                slidesPerView: 'auto',
+                spaceBetween: 30,
+                loop: true,
+                autoplay: {
+                    delay: 5000, // Adjust the delay (in milliseconds) as needed
+                },
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+                speed: 1000,
+            });
+        });
+
+        document.addEventListener('DOMContentLoaded', function () {
+            const homeSwiper = new Swiper(".home-swiper", {
+                spaceBetween: 30,
+                loop: true,
+                autoplay: {
+                    delay: 5000,
+                    disableOnInteraction: false,
+                },
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+                effect: 'slide', // Set the effect to 'slide' for smooth transition
+                speed: 1000, // Adjust the speed of the transition (in milliseconds)
+            });
+        });
+
+    </script>
+
+    <script>// Get the modal
+        var modal = document.getElementById("myModal");
+
+        // Get the image and insert it inside the modal
+        var img = document.getElementsByClassName('clickable');
+        var modalImg = document.getElementById("img01");
+        for (let i = 0; i < img.length; i++) {
+            img[i].onclick = function () {
+                modal.style.display = "block";
+                modalImg.src = this.src;
+            }
+        }
+
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function () {
+            modal.style.display = "none";
+        }
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+    const viewMoreBtn = document.getElementById('viewMoreBtn');
+    const additionalProjects = document.getElementById('additionalProjects');
+
+    viewMoreBtn.addEventListener('click', function() {
+        additionalProjects.classList.toggle('hidden');
+        viewMoreBtn.classList.toggle('rotated');
+
+        if (!additionalProjects.classList.contains('hidden')) {
+            additionalProjects.scrollIntoView({ behavior: 'smooth' });
+        }
+    });
+});
+        </script>
+
+    <script src="static/script/scrollreveal.min.js"></script>
+
+    <script src="static/script/swiper-bundle.min.js"></script>
+
+    <script src="static/script/main.js"></script>
+    <script src="static/script/notice.js"></script>
+    <script src="static/script/mode.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
