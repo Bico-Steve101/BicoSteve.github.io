@@ -311,6 +311,46 @@ input#file-upload-button{
     margin-top:1em;
   }
 }
+.alert__description{
+  color:var(--text-color) !important;
+  margin-bottom: -0.1em;
+}
+.alert-top{
+  margin-top: 10em;
+  margin-bottom: -5em;
+  background-color: #04aa6d71 !important;
+}
+
+.portfolio-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  color: #fff;
+  background-color: #28a745;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  font-size: 24px;
+  animation: pulsate 1.5s infinite;
+}
+
+/* Pulsating effect */
+@keyframes pulsate {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(40, 167, 69, 0.7);
+  }
+  50% {
+    transform: scale(1.1);
+    box-shadow: 0 0 0 20px rgba(40, 167, 69, 0);
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(40, 167, 69, 0);
+  }
+}
 
 
 
